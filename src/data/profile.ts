@@ -31,19 +31,19 @@ export type SkillGroup = {
 export const skillGroups: SkillGroup[] = [
   {
     id: 'frontend',
-    items: ['HTML', 'CSS', 'JavaScript', 'TypeScript', 'React', 'Next.js', 'Tailwind CSS'],
+    items: ['HTML', 'CSS', 'JavaScript', 'TypeScript', 'React', 'Next.js', 'Tailwind CSS', 'Bootstrap'],
   },
   {
     id: 'backend',
-    items: ['PHP', 'Symfony', 'Node.js (Express)', 'MySQL', 'NoSQL', 'Prisma', 'REST / WebSocket'],
+    items: ['PHP', 'Symfony', 'Node.js', 'SQL', 'NoSQL', 'Prisma', 'API REST', 'WebSocket'],
   },
   {
     id: 'tools',
-    items: ['Git', 'GitHub', 'VS Code', 'Claude Code', 'Copilot', 'Figma', 'Trello', 'Looping'],
+    items: ['Git', 'Docker', 'GitHub', 'VS Code', 'Claude Code', 'Copilot', 'Figma', 'Trello', 'Looping'],
   },
   {
     id: 'other',
-    items: ['C++', 'React Native', 'PWA / Service Worker', 'JWT / SSO', 'Netlify', 'Cloudinary'],
+    items: ['C++', 'React Native', 'PWA / Service Worker', 'JWT / SSO', 'Netlify', 'Vercel', 'Cloudinary', 'Neon', 'Supabase'],
   },
 ];
 
@@ -95,6 +95,26 @@ export const projects: Project[] = [
       'Push / VAPID',
       'Service Worker',
       'SSO JWT',
+    ],
+  },
+  {
+    id: 'geoquizz',
+    year: '2026',
+    accent: 'violet',
+    featured: true,
+    links: [
+      { label: 'geoquizz.games', href: 'https://geoquizz.games' },
+      { label: 'itch.io', href: 'https://nfd7.itch.io/geoquizz' },
+    ],
+    stack: [
+      'Next.js',
+      'React',
+      'TypeScript',
+      'Supabase',
+      'Realtime',
+      'Service Worker',
+      'd3-geo',
+      'Vercel',
     ],
   },
   {

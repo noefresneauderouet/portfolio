@@ -62,7 +62,7 @@ export const fr = {
   projects: {
     eyebrow: 'Projets',
     title: 'Ce que j’ai construit',
-    subtitle: 'Une sélection de projets pro, freelance et de formation.',
+    subtitle: 'Une sélection de projets pro, freelance, personnels et de formation.',
     featured: 'À la une',
     stackLabel: 'Stack',
     items: {
@@ -87,6 +87,18 @@ export const fr = {
           'WebSocket, webhooks et service worker pour le hors-ligne et les notifications.',
           'Back-end connecté en SSO : JWT, API key et clés VAPID.',
           "En parallèle : amélioration du site web existant (React, Next.js, Tailwind, TypeScript).",
+        ],
+      },
+      geoquizz: {
+        title: 'GeoQuizz — quiz de géographie',
+        context: 'Projet personnel',
+        summary:
+          'Jeu de géographie en ligne : drapeaux, capitales, pays et régions à retrouver, seul ou à plusieurs.',
+        details: [
+          "196 pays par zone, combinables (Afrique + Europe…), et les régions des États-Unis, de la France, de l'Espagne et de la Chine. Réponses en français ou en anglais, tolérantes aux fautes de frappe.",
+          'PWA installable qui fonctionne hors ligne (service worker), en export statique Next.js sur Vercel, couverte par plus de 200 tests unitaires.',
+          'Comptes Supabase (e-mail ou Google), photos de profil et classement en ligne chronométré par le serveur pour limiter la triche.',
+          'Salles multijoueur en temps réel : par code ou par lien, salles publiques et « Partie aléatoire ».',
         ],
       },
       'gestion-projet': {

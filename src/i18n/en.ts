@@ -64,7 +64,7 @@ export const en: Dict = {
   projects: {
     eyebrow: 'Work',
     title: 'What I have built',
-    subtitle: 'A selection of professional, freelance and training projects.',
+    subtitle: 'A selection of professional, freelance, personal and training projects.',
     featured: 'Featured',
     stackLabel: 'Stack',
     items: {
@@ -87,6 +87,18 @@ export const en: Dict = {
           'WebSocket, webhooks and a service worker for offline support and notifications.',
           'Back-end connected through SSO: JWT, API key and VAPID keys.',
           'Alongside: improvements to the existing website (React, Next.js, Tailwind, TypeScript).',
+        ],
+      },
+      geoquizz: {
+        title: 'GeoQuizz — geography quiz',
+        context: 'Personal project',
+        summary:
+          'Online geography game: find flags, capitals, countries and regions, solo or with friends.',
+        details: [
+          '196 countries by zone, which can be mixed (Africa + Europe…), plus the regions of the United States, France, Spain and China. Answers in French or English, forgiving of typos.',
+          'Installable PWA that works offline (service worker), static Next.js export on Vercel, covered by 200+ unit tests.',
+          'Supabase accounts (e-mail or Google), profile photos and an online leaderboard timed by the server to prevent cheating.',
+          'Real-time multiplayer rooms: join by code or link, public rooms and random matchmaking.',
         ],
       },
       'gestion-projet': {
